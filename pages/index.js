@@ -9,7 +9,6 @@ export default function Home() {
   return (
     <div className="firstpageanim">
       <div className="relative h-screen w-screen flex items-start justify-center text-white overflow-hidden">
-
         {/* Top Navigation - aligned right */}
         <div className="absolute top-4 right-6 z-20">
           <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-full px-6 py-2 flex space-x-6 shadow-lg text-sm sm:text-base">
@@ -64,11 +63,11 @@ export default function Home() {
             <div className="mt-10 flex flex-col space-y-4 ">
               <Link href="/rules">
                 <button className="w-55 bg-white/10 backdrop-blur-md text-white px-6 py-3 rounded-2xl shadow-xl text-center transition transform duration-300 hover:text-cyan-200 hover:scale-105">
-                  📏 View Rules
+                  📝 View Rules
                 </button>
               </Link>
               <a
-                href="https://your-google-form-link"
+                href="https://forms.gle/fh3hFkrPoZeNdKZK8"
                 target="_blank"
                 rel="noopener noreferrer"
               >
