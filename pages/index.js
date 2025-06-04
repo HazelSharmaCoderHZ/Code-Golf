@@ -1,6 +1,9 @@
 'use client';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import Lottie from "lottie-react";
+const cyberVisual = "/cybervisual.json";
+
 
 export default function Home() {
   return (
@@ -29,15 +32,33 @@ export default function Home() {
             transition={{ duration: 1 }}
             className="text-left md:w-1/2"
           >
-            <p className="text-4xl sm:text-5xl font-extrabold text-white/80 mb-4 tracking-wide">
-              IEEE WIE introduces
-            </p>
-            <h1 className="text-7xl sm:text-7xl md:text-7xl font-extrabold font-serif typewriter-loop bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 text-transparent bg-clip-text">
-              Code Golf 🏌️‍♂️
-            </h1>
-            <p className="text-xl sm:text-2xl italic mt-4 text-white/80 font-semibold">
-              Logic | Laughter | Learning
-            </p>
+            <motion.p
+             initial={{ y: -50, opacity: 0 }}
+             animate={{ y: 0, opacity: 1 }}
+             transition={{ duration: 1 }}
+             className="text-4xl sm:text-5xl font-extrabold text-white/80 mb-4 tracking-wide"
+            >
+          IEEE WIE introduces
+          </motion.p>
+
+        <motion.h1
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 1.2, delay: 0.2, ease: "easeOut" }}
+          className="text-7xl sm:text-7xl md:text-7xl font-extrabold font-serif typewriter-loop bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 text-transparent bg-clip-text"
+        >
+        Code Golf 🏌️‍♂️
+        </motion.h1>
+
+      <motion.p
+        initial={{ y: 30, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1, delay: 0.6 }}
+        className="text-xl sm:text-2xl italic mt-4 text-white/80 font-semibold"
+      >
+        Logic | Laughter | Learning
+      </motion.p>
+
 
             {/* Buttons right below heading */}
             <div className="mt-10 flex flex-col space-y-4 ">
@@ -57,9 +78,17 @@ export default function Home() {
               </a>
             </div>
           </motion.div>
+          
 
           {/* Right Section: Empty for future animation or image */}
-          <div className="hidden md:block md:w-1/2"></div>
+          <div className="hidden md:block md:w-1/2">
+           <Lottie
+             loop={true}
+             className="w-[80%] max-w-[500px] drop-shadow-2xl"
+             path={cyberVisual}
+             autoplay={true}
+          />
+          </div>
         </div>
 
         {/* Footer */}

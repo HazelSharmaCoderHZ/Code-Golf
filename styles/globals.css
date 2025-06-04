@@ -46,30 +46,3 @@ body {
     background-position: 0% 50%;
   }
 }
-
-@keyframes rise {
-  0% {
-    transform: translateY(100vh) scale(1);
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.4;
-  }
-  100% {
-    transform: translateY(50vh) scale(1);
-    opacity: 0;
-  }
-}
-
-.bubble {
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  border: 2px solid rgba(255, 255, 255, 0.4); /* visible white ring */
-  background: transparent; /* no fill */
-  border-radius: 50%; /* ring shape */
-  animation: rise 6s ease-in-out infinite;
-  z-index: 1; /* Ensure it's not behind background elements */
-  mix-blend-mode: screen;
-  pointer-events: none; /* So it doesn't interfere with clicks */
-}
