@@ -30,7 +30,7 @@ export default function Rules() {
         </div>
 
         <div className="bg-white/10 border border-white/20 backdrop-blur-md p-6 rounded-xl w-full max-w-3xl hover:border-white transition transform hover:scale-105 shadow-md">
-        <span className="inline-block mb-2 px-3 py-1 rounded-full bg-red-600 text-white font-semibold">⚖️ Judgement</span>
+        <span className="inline-block mb-2 px-3 py-1 rounded-full bg-pink-600 text-white font-semibold">⚖️ Judgement</span>
         <p className="text-white">Decisions by the organizers will be final.</p>
         </div>
 
