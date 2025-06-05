@@ -60,7 +60,7 @@ export default function Home() {
 
 
             {/* Buttons right below heading */}
-            <div className="mt-10 flex flex-col space-y-4 ">
+            <div className="mt-10 mb-1 flex flex-col space-y-4 ">
               <Link href="/rules">
                 <button className="w-55 bg-white/10 backdrop-blur-md text-white px-6 py-3 rounded-2xl shadow-xl text-center transition transform duration-300 hover:text-cyan-200 hover:scale-105">
                   📝 View Rules
@@ -80,7 +80,7 @@ export default function Home() {
           
 
           {/* Right Section: Empty for future animation or image */}
-          <div className="w-full md:w-1/2 flex justify-center mt-7 md:mt-0">
+          <div className="w-full md:w-1/2 flex justify-center mt-5 md:mt-0 mb-20 sm:mb-12">
            <Lottie
              loop={true}
              className="w-[80%] max-w-[500px] drop-shadow-2xl"
