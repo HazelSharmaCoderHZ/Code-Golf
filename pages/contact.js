@@ -3,8 +3,8 @@ import Link from 'next/link'
 export default function Contact() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-purple-900 via-purple-600 to-blue-900 text-white px-8 py-16 flex flex-col items-center justify-center">
-      <div className="bubble bg-cyan-300 border w-47 h-47 top-13 right-20 animate-[float1_8s_ease-in-out_infinite] hover:bg-pink-300"></div>
-      <div className="bubble bg-pink-300 w-44 border h-44 top-67 left-30 animate-[float2_10s_ease-in-out_infinite] hover:bg-cyan-300"></div>
+      <div className="bubble bg-cyan-300 border w-47 h-47 top-8 right-20 animate-[float1_8s_ease-in-out_infinite] hover:bg-pink-300"></div>
+      <div className="bubble bg-pink-300 w-44 border h-44 top-79 left-30 animate-[float2_10s_ease-in-out_infinite] hover:bg-cyan-300"></div>
    
       <h1 className="text-7xl font-bold mb-9 tracking-tight text-center">
         Contact <span className="bg-gradient-to-r from-cyan-300 via-purple-300 to-pink-300 text-transparent bg-clip-text">Us</span>.
