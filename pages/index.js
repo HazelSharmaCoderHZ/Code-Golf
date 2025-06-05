@@ -82,7 +82,7 @@ export default function Home() {
           
 
           {/* Right Section: Empty for future animation or image */}
-          <div className="w-full md:w-1/2 flex justify-center mt-6 sm:mt-10 md:mt-0 mb-40 sm:mb-18">
+          <div className="w-full md:w-1/2 flex justify-center mt-6 sm:mt-10 md:mt-0 mb-34 sm:mb-12">
            <Lottie
              loop={true}
              className="w-[80%] max-w-[500px] drop-shadow-2xl"
