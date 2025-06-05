@@ -35,7 +35,7 @@ export default function Home() {
              initial={{ y: -50, opacity: 0 }}
              animate={{ y: 0, opacity: 1 }}
              transition={{ duration: 1 }}
-             className="text-4xl sm:text-5xl font-extrabold text-white/80 mb-4 tracking-wide"
+             className="text-4xl text-white/80 bg-clip-text sm:text-5xl font-extrabold  mb-4 tracking-wide"
             >
           IEEE WIE introduces
           </motion.p>

@@ -28,7 +28,7 @@ body {
 .firstpageanim {
   background: linear-gradient(-45deg, #000000, #1b022d, #3b095d, #531786);
   background-size: 400% 400%;
-  animation: gradientBGG 12s ease infinite;
+  animation: gradientBGG 11s ease infinite;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -46,3 +46,34 @@ body {
     background-position: 0% 50%;
   }
 }
+@keyframes float1 {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(-25px, -35px) scale(1.1);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+  @keyframes float2 {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(30px, -25px) scale(0.95);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  }
+  .bubble {
+   border-radius: 99999px;
+   position: absolute;
+   opacity: 0.7;
+   z-index: 0;
+   
+   mix-blend-mode: screen;
+  }
