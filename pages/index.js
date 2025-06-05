@@ -5,8 +5,10 @@ import Lottie from "lottie-react";
 const cyberVisual = "/cybervisual.json";
 
 
+
 export default function Home() {
   return (
+    
     <div className="firstpageanim">
       <div className="relative h-screen w-screen flex items-start justify-center text-white overflow-hidden">
         {/* Top Navigation - aligned right */}
@@ -80,7 +82,7 @@ export default function Home() {
           
 
           {/* Right Section: Empty for future animation or image */}
-          <div className="w-full md:w-1/2 flex justify-center  md:mt-0 mb-32 sm:mb-12">
+          <div className="w-full md:w-1/2 flex justify-center  md:mt-0 mb-34 sm:mb-12">
            <Lottie
              loop={true}
              className="w-[80%] max-w-[500px] drop-shadow-2xl"
