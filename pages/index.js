@@ -93,7 +93,7 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-        <footer className="absolute bottom-4 text-center text-sm text-gray-200 w-full">
+        <footer className="absolute bottom-4 text-center text-sm text-gray-200 pt-20 w-full">
           Hosted by IEEE WIE Team, VIT Vellore
         </footer>
       </div>
