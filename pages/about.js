@@ -8,7 +8,7 @@ export default function About() {
     <main className="relative min-h-screen bg-gradient-to-b from-blue-500 via-black to-purple-900 text-white flex flex-col items-center justify-center overflow-hidden">
       
       {/* Background Animation */}
-      <div className="absolute top-0 inset-0 w-full h-full z-0 overflow-hidden">
+      <div className="absolute fixed justify-start top-0 inset-0 w-full h-full z-0 overflow-hidden">
         <Lottie
           loop={true}
           className="absolute inset-0  object-cover w-full h-full max-w-full drop-shadow-2xl"
