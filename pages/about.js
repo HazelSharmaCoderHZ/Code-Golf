@@ -10,7 +10,7 @@ export default function About() {
 
       {/* Content Layer */}
       <div className="relative z-10 flex flex-col items-center text-center px-4 pt-7">
-        <h1 className="text-7xl font-bold mb-2 tracking-tight text-black">
+        <h1 className="whitespace-nowrap text-6xl sm:text-6xl md:text-7xl font-bold mb-2 tracking-tight text-black">
           About <span className="text-cyan-100">WIE</span> .
         </h1>
 

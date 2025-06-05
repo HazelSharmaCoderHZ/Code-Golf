@@ -22,20 +22,20 @@ export default function Home() {
         </div>
 
         {/* Main Content */}
-        <div className="flex flex-col md:flex-row w-full max-w-7xl items-start justify-between px-6 sm:px-12 pt-20 md:pt-26">
+        <div className="   flex flex-col md:flex-row w-full max-w-7xl items-start justify-between px-6 sm:px-12 pt-20 md:pt-26">
 
           {/* Left Section: Heading + Buttons */}
           <motion.div
             initial={{ opacity: 0, x: -40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
-            className="text-left md:w-1/2"
+            className="text-center md:text-left w-full md:w-1/2"
           >
             <motion.p
              initial={{ y: -50, opacity: 0 }}
              animate={{ y: 0, opacity: 1 }}
              transition={{ duration: 1 }}
-             className="text-4xl text-white/80 bg-clip-text sm:text-5xl font-extrabold  mb-4 tracking-wide"
+             className="text-4xl   text-white/80 bg-clip-text sm:text-5xl font-extrabold  mb-4 tracking-wide"
             >
           IEEE WIE introduces
           </motion.p>
@@ -80,7 +80,7 @@ export default function Home() {
           
 
           {/* Right Section: Empty for future animation or image */}
-          <div className="w-full md:w-1/2 flex justify-center mt-10 md:mt-0">
+          <div className="w-full md:w-1/2 flex justify-center mt-7 md:mt-0">
            <Lottie
              loop={true}
              className="w-[80%] max-w-[500px] drop-shadow-2xl"
