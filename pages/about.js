@@ -1,22 +1,12 @@
 import Link from 'next/link';
-import Lottie from 'lottie-react';
 
-const hdr = "/header.json";
 
 export default function About() {
   return (
-    <main className="relative min-h-screen bg-gradient-to-b from-blue-500 via-black to-purple-900 text-white flex flex-col items-center justify-center overflow-hidden">
-      
-      {/* Background Animation */}
-      <div className="absolute fixed justify-start top-0 inset-0 w-full h-full z-0 overflow-hidden">
-        <Lottie
-          loop={true}
-          className="absolute inset-0  object-cover w-full h-full max-w-full drop-shadow-2xl"
-          path={hdr}
-          autoplay={true}
-          style={{ opacity: 0.4 }}
-        />
-      </div>
+    <main className="relative min-h-screen bg-gradient-to-b from-blue-600 via-purple-900 to-purple-700 text-white flex flex-col items-center justify-center overflow-hidden">
+     <div className="bubble bg-cyan-300 border w-47 h-47 top-13 right-20 animate-[float1_8s_ease-in-out_infinite] hover:bg-pink-300"></div>
+     <div className="bubble bg-pink-300 w-44 border h-44 top-94 left-30 animate-[float2_10s_ease-in-out_infinite] hover:bg-cyan-300"></div>
+   
 
       {/* Content Layer */}
       <div className="relative z-10 flex flex-col items-center text-center px-4 pt-7">
