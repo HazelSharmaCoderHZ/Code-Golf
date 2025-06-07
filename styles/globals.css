@@ -28,7 +28,7 @@ body {
 .firstpageanim {
   background: linear-gradient(-45deg, #000000, #1b022d, #3b095d, #531786);
   background-size: 400% 400%;
-  animation: gradientBGG 11s ease infinite;
+  animation: gradientBGG 9s ease infinite;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -98,7 +98,8 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  left: -5px;
+  left: -8px;
+  bottom: -8px;
   margin: auto;
   width: 50vw;
   height: 50vh;
@@ -155,9 +156,9 @@ body {
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #050a0c, #0f323e, #021bfe, #c30c92);
+  background: linear-gradient(135deg, #050a0c, #0f323e, #021bfe, #010523);
   background-size: 400% 400%;
-  animation: gradientBG 11s ease infinite;
+  animation: gradientBG 9s ease infinite;
   color: white;
 }
 
@@ -172,13 +173,14 @@ body {
 
 
 .heading {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+  
 }
 
 .timer {
   margin-top: 2rem;
   font-size: 1.8rem;
   color: #e0e0e0;
+  margin-bottom: 2rem;
 }

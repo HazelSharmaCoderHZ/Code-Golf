@@ -12,7 +12,8 @@ export default function Home() {
     <div className="firstpageanim">
       <div className="relative h-screen w-screen flex items-start justify-center text-white overflow-hidden">
         {/* Top Navigation - aligned right */}
-        <div className="absolute top-4 right-6 z-20">
+        <div className="absolute top-4 right-6 sm:right-6 sm:top-4 sm:left-auto left-1/2 transform -translate-x-1/2 sm:transform-none z-20">
+
           <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-full px-6 py-2 flex space-x-6 shadow-lg text-sm sm:text-base">
             <Link href="/about" className="hover:text-cyan-200 font-semibold transition duration-300">
               About WIE
