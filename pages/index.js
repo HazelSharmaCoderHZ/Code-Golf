@@ -20,6 +20,9 @@ export default function Home() {
             <Link href="/contact" className="hover:text-cyan-200 font-semibold transition duration-300">
               Contact Us
             </Link>
+            <Link href="/contest" className="hover:text-cyan-200 font-semibold transition duration-300">
+              Contest
+            </Link>
           </div>
         </div>
 
