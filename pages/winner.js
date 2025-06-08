@@ -1,49 +1,59 @@
 'use client';
-import Link from 'next/link'; 
-import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
-<div class="group relative h-96 w-72 [perspective:1000px]">
-  <div
-    class="absolute duration-1000 w-full h-full [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)]"
-  >
-    <div
-      class="absolute w-full h-full rounded-xl bg-gradient-to-br from-violet-400 to-indigo-600 p-6 text-white [backface-visibility:hidden]"
-    >
-      <div class="flex flex-col h-full">
-        <div class="flex justify-between items-start">
-          <div class="text-3xl font-bold">Card Title</div>
-          <div class="text-5xl">🌟</div>
-        </div>
-        <div class="mt-4">
-          <p class="text-lg">
-            Front content goes here. This is visible before hovering.
-          </p>
-        </div>
-        <div class="mt-auto">
-          <p class="text-sm opacity-75">Hover to flip!</p>
-        </div>
+export default function Winner() {
+  // Names of the winners
+  const winnerNames = ['Name 1', 'Name 2', 'Name 3'];
+
+  return (
+    <div className="pageanim min-h-screen px-6 py-12 bg-gradient-to-br from-gray-900 to-black text-white">
+      <h1 className="text-4xl md:text-5xl font-bold text-center mb-12">
+        Winners of Code Golf - IEEE WIE
+      </h1>
+
+      <div className="flex flex-col md:flex-row items-center justify-center gap-10">
+        {[1, 2, 3].map((rank, index) => (
+          <div key={index} className="group relative h-96 w-72 [perspective:1000px]">
+            <div className="absolute duration-1000 w-full h-full [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)]">
+              {/* Front Side */}
+              <div className="absolute w-full h-full rounded-xl bg-gradient-to-br from-violet-400 to-indigo-600 p-6 text-white [backface-visibility:hidden]">
+                <div className="flex flex-col h-full">
+                  <div className="flex justify-between items-start">
+                    <div className="text-5xl font-bold">
+                      {rank === 1 ? 'First' : rank === 2 ? 'Second' : 'Third'}
+                    </div>
+                    <div className="text-5xl">🌟</div>
+                  </div>
+                  <div className="mt-2">
+                    <p className="text-xl">Winner</p>
+                  </div>
+                  <div className="mt-auto">
+                    <p className="text-sm opacity-75">Tap to flip!</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Back Side */}
+              <div className="absolute w-full h-full rounded-xl bg-gradient-to-br from-pink-400 to-purple-600 p-6 text-white [transform:rotateX(180deg)] [backface-visibility:hidden]">
+                <div className="flex flex-col h-full">
+                  <div className="text-2xl font-bold mb-4">
+                    {rank === 1 ? 'First' : rank === 2 ? 'Second' : 'Third'} Winner
+                  </div>
+                  <div className="flex-grow">
+                    <p className="text-lg">{winnerNames[index]}</p>
+                  </div>
+                  <div className="flex justify-between items-center mt-auto">
+                    <button className="px-4 py-2 bg-white text-purple-600 rounded-lg font-semibold hover:bg-opacity-90 transition-colors">
+                      Congratulations!✨
+                    </button>
+                    <span className="text-3xl">🎉</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
-
-    <div
-      class="absolute w-full h-full rounded-xl bg-gradient-to-br from-pink-400 to-purple-600 p-6 text-white [transform:rotateX(180deg)] [backface-visibility:hidden]"
-    >
-      <div class="flex flex-col h-full">
-        <div class="text-2xl font-bold mb-4">Back Side</div>
-        <div class="flex-grow">
-          <p class="text-lg">
-            Back content goes here. This is visible after hovering.
-          </p>
-        </div>
-        <div class="flex justify-between items-center mt-auto">
-          <button
-            class="px-4 py-2 bg-white text-purple-600 rounded-lg font-semibold hover:bg-opacity-90 transition-colors"
-          >
-            Action
-          </button>
-          <span class="text-3xl">✨</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+  );
+}

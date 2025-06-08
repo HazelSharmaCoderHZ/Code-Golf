@@ -184,3 +184,17 @@ body {
   color: #e0e0e0;
   margin-bottom: 2rem;
 }
+.pageanim {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #050a0c, #0f323e, #0b0e4b, #010523);
+  background-size: 400% 400%;
+  animation: gradientBG 9s ease infinite;
+  color: white;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
