@@ -1,9 +1,17 @@
 'use client';
+import { useState } from 'react';
 import Link from 'next/link';
 
 export default function Winner() {
-  // Names of the winners
   const winnerNames = ['Name 1', 'Name 2', 'Name 3'];
+  const [flippedCards, setFlippedCards] = useState([false, false, false]);
+
+  const toggleFlip = (index) => {
+
+    const newFlipped = [...flippedCards];
+    newFlipped[index] = !newFlipped[index];
+    setFlippedCards(newFlipped);
+  };
 
   return (
     <div className="pageanim min-h-screen px-6 py-12 bg-gradient-to-br from-gray-900 to-black text-white">
@@ -13,8 +21,16 @@ export default function Winner() {
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-10">
         {[1, 2, 3].map((rank, index) => (
-          <div key={index} className="group relative h-96 w-72 [perspective:1000px]">
-            <div className="absolute duration-1000 w-full h-full [transform-style:preserve-3d] group-hover:[transform:rotateX(180deg)]">
+          <div
+            key={index}
+            className="relative h-96 w-72 [perspective:1000px] cursor-pointer"
+            onClick={() => toggleFlip(index)}
+          >
+            <div
+              className={`absolute duration-1000 w-full h-full [transform-style:preserve-3d] ${
+                flippedCards[index] ? 'rotate-x-180' : ''
+              }`}
+            >
               {/* Front Side */}
               <div className="absolute w-full h-full rounded-xl bg-gradient-to-br from-violet-400 to-indigo-600 p-6 text-white [backface-visibility:hidden]">
                 <div className="flex flex-col h-full">
@@ -34,7 +50,7 @@ export default function Winner() {
               </div>
 
               {/* Back Side */}
-              <div className="absolute w-full h-full rounded-xl bg-gradient-to-br from-pink-400 to-purple-600 p-6 text-white [transform:rotateX(180deg)] [backface-visibility:hidden]">
+              <div className="absolute w-full h-full rounded-xl bg-gradient-to-br from-pink-400 to-purple-600 p-6 text-white rotate-x-180 [backface-visibility:hidden]">
                 <div className="flex flex-col h-full">
                   <div className="text-2xl font-bold mb-4">
                     {rank === 1 ? 'First' : rank === 2 ? 'Second' : 'Third'} Winner
