@@ -13,7 +13,8 @@ export default function Home() {
       <div className="relative h-screen w-screen flex items-start justify-center text-white overflow-hidden">
         {/* Top Navigation - aligned right */}
        <div className="absolute top-4 left-1/2 -translate-x-1/2 sm:left-auto sm:right-6 sm:translate-x-0 z-20">
-  <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-full px-4 py-2 flex flex-wrap justify-center sm:justify-end gap-x-4 shadow-lg text-sm sm:text-base max-w-[90vw] sm:max-w-none">
+  <div className="backdrop-blur-md bg-white/10 border border-white/20 rounded-full px-4 py-2 flex flex-wrap justify-center sm:justify-end gap-x-4 shadow-lg text-sm sm:text-base w-full sm:w-auto">
+
     <Link href="/about" className="hover:text-cyan-200 font-semibold hover:scale-105 transition duration-300">
       About WIE
     </Link>
