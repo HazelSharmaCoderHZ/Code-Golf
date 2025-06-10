@@ -11,7 +11,7 @@ export default function Rules() {
       {/* Rule Card */}
         <div className="bg-white/10 border border-white/20 backdrop-blur-md p-6 rounded-xl w-full max-w-3xl hover:border-white transition transform hover:scale-105 shadow-md">
         <span className="inline-block mb-2 px-3 py-1 rounded-full bg-green-600 text-white font-semibold">🎯 Register on VTOP</span>
-        <p className="text-white">Any participant whose entry is not recieved on VTOP, shall not be eligible to participate. 🚀 <a href="https://vtop.vit.ac.in/" target="_blank" rel="noopener noreferrer" className="underline text-center text-purple-300 hover:text-purple-500 ml-4"> Register on VTOP</a>
+        <p className="text-white">Any participant whose entry is not recieved on VTOP, shall not be eligible to participate. 🚀 <a href="https://vtop.vit.ac.in/" target="_blank" rel="noopener noreferrer" className="underline text-center text-purple-300 hover:text-purple-500 ml-4">Register on VTOP</a>
        </p>
         </div>
 
