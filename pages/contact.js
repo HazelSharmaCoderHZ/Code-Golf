@@ -11,14 +11,27 @@ export default function Contact() {
       </h1>
 
       <div className="max-w-4xl text-lg leading-relaxed text-purple-200 bg-black bg-opacity-10 border border-white rounded-xl p-10 shadow-xl hover:border-pink-300 hover:translate-y-1 hover:scale-105 duration-300 space-y-6">
-        <p>
-          💌 Email us at{' '}
-          <a href="mailto:wieclub@vit.ac.in" className="underline text-purple-300 hover:text-purple-500">
-            wieclub@vit.ac.in
-          </a>
+        <p className="text-white text-center">
+  💌 Reach us at:<br></br><br></br>{' '}
+         <a href="mailto:ieeewie@vit.ac.in" className="underline text-purple-300 hover:text-purple-500 mr-4">
+    Email
+         </a>
+        |
+        <a href="https://www.linkedin.com/company/ieee-women-in-engineering-vit" target="_blank" rel="noopener noreferrer" className="underline text-purple-300 hover:text-purple-500 mx-4">
+        LinkedIn
+        </a>
+         |
+        <a href="https://youtube.com/channel/UChyNPnb-Eg_DyTzOGs6nITw" target="_blank" rel="noopener noreferrer" className="underline text-purple-300 hover:text-purple-500 mx-4">
+        YouTube
+      </a>
+      |
+        <a href="https://instagram.com/ieee_wie_vit" target="_blank" rel="noopener noreferrer" className="underline text-purple-300 hover:text-purple-500 ml-4">
+        Instagram
+        </a>
         </p>
 
-        <p>Feel free to reach out for any queries!</p>
+
+        <p className="text-center">Feel free to reach out for any queries!</p>
       </div>
 
       <Link href="/">
