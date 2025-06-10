@@ -10,8 +10,8 @@ export default function Rules() {
       <div className="flex flex-col items-center gap-6">
       {/* Rule Card */}
         <div className="bg-white/10 border border-white/20 backdrop-blur-md p-6 rounded-xl w-full max-w-3xl hover:border-white transition transform hover:scale-105 shadow-md">
-        <span className="inline-block mb-2 px-3 py-1 rounded-full bg-green-600 text-white font-semibold">🎯 Register on VTOP</span>
-        <p className="text-white">Any participant whose entry is not recieved on VTOP, shall not be eligible to participate. 🚀 <a href="https://vtop.vit.ac.in/" target="_blank" rel="noopener noreferrer" className="underline text-center text-purple-300 hover:text-purple-500 ml-4">Register on VTOP</a>
+        <span className="inline-block mb-2 px-3 py-1 rounded-full bg-green-600 text-white font-semibold">☑️ Register on VTOP</span>
+        <p className="text-white">Any participant whose entry is not recieved on VTOP, shall not be eligible to participate.<br></br>  <a href="https://vtop.vit.ac.in/" target="_blank" rel="noopener noreferrer" className="underline text-center text-purple-300 hover:text-purple-500 ml-4">🚀Register on VTOP</a>
        </p>
         </div>
 
@@ -28,6 +28,11 @@ export default function Rules() {
         <div className="bg-white/10 border border-white/20 backdrop-blur-md p-6 rounded-xl w-full max-w-3xl hover:border-white  transition transform hover:scale-105 shadow-md">
         <span className="inline-block mb-2 px-3 py-1 rounded-full bg-green-600 text-white font-semibold">🧠Evaluation</span>
         <p className="text-white">Shorter code with correct output wins. Creativity counts!</p>
+        </div>
+
+        <div className="bg-white/10 border border-white/20 backdrop-blur-md p-6 rounded-xl w-full max-w-3xl hover:border-white transition transform hover:scale-105 shadow-md">
+        <span className="inline-block mb-2 px-3 py-1 rounded-full bg-blue-400 text-white font-semibold">⌚ Duration</span>
+        <p className="text-white">The link to the event will be active from 13 JUNE, 9:00 PM to 15 JUNE, 10:00 PM</p>
         </div>
 
         <div className="bg-white/10 border border-white/20 backdrop-blur-md p-6 rounded-xl w-full max-w-3xl hover:border-white transition transform hover:scale-105 shadow-md">

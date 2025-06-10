@@ -6,7 +6,7 @@ export default function Home() {
   const [timeLeft, setTimeLeft] = useState('');
 
   useEffect(() => {
-    const targetDate = new Date('2025-06-11T21:00:00+05:30');
+    const targetDate = new Date('2025-06-13T21:00:00+05:30');
 
     const updateTimer = () => {
       const now = new Date();
