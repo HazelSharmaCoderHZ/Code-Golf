@@ -10,7 +10,7 @@ export default function Contact() {
         Contact <span className="bg-gradient-to-r from-cyan-300 via-purple-300 to-pink-300 text-transparent bg-clip-text">Us</span>.
       </h1>
 
-      <div className="max-w-4xl text-lg leading-relaxed text-purple-200 bg-black border border-white rounded-xl p-10  hover:border-pink-300 hover:translate-y-1 hover:scale-105 duration-300 space-y-6">
+      <div className="max-w-4xl text-lg leading-relaxed text-purple-200 bg-black bg-opacity/100 border border-white rounded-xl p-10  hover:border-pink-300 hover:translate-y-1 hover:scale-105 duration-300 space-y-6">
         <p className="text-white text-center">
   💌 Reach us at:<br></br><br></br>{' '}
          <a href="mailto:ieeewie@vit.ac.in" className="underline text-purple-300 text-center hover:text-purple-500 mr-4">📧 Email</a>
