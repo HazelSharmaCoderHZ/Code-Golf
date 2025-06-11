@@ -90,7 +90,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 12px;
   gap: 12px;
   border-radius: 8px;
   cursor: pointer;
@@ -103,8 +102,8 @@ body {
   inset: 0;
   
   margin: auto;
-  width: 50vw;
-  height: 50vh;
+  width: 51vw;
+  height: 51vh;
   border-radius: 10px;
   background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
   z-index: -1;
