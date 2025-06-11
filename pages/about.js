@@ -16,7 +16,7 @@ export default function About() {
 
         <article className="max-w-4xl bg-white/20 border border-black backdrop-blur-md text-lg leading-relaxed text-purple-200 bg-opacity-90 rounded-xl p-10 shadow-xl hover:text-blue-200 hover:border-blue-200">
           <p>
-            IEEE Women in Engineering (WIE) is not just a club, but a family of skillful individuals. Our main aim is to promote women in tech,
+            IEEE Women in Engineering (WIE) is not just a chapter, but a family of skillful individuals. Our main aim is to promote women in tech,
             innovation and leadership. At VIT Vellore, our WIE team organizes inspiring events,
             workshops, and competitions to empower women in STEM and foster community.
           </p>
