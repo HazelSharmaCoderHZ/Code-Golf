@@ -37,9 +37,9 @@ export default function Home() {
         <p className="text-2xl">Powered By</p>
         <p className="heading">IEEE WIE</p>
         <a
-        href="https://www.hackerrank.com/contests/code-golf-1749155413/challenges/palindromes">
-                <p className="transition transform duration-300 hover:text-cyan-200 hover:scale-155">
-                  Start Event
+        href="http://www.hackerrank.com/code-golf-wie-1749626196">
+                <p className="transition text-2xl transform duration-300 hover:text-cyan-200 hover:scale-155">
+                  🔘 Start Event Now 
                 </p>
         </a>
       </div>
