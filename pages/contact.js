@@ -27,7 +27,7 @@ export default function Contact() {
       </div>
 
       <Link href="/">
-        <button className="mt-9 bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 hover:bg-purple-800 hover:text-black text-white font-semibold px-10 py-3 rounded-full text-xl shadow-lg transition-colors duration-300">
+        <button className="mt-6 bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 hover:bg-purple-800 hover:text-black text-white font-semibold px-9 py-3 rounded-full text-xl shadow-lg transition-colors duration-300">
           ← Back to Home
         </button>
       </Link>
