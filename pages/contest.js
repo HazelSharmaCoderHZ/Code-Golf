@@ -43,8 +43,8 @@ export default function Home() {
                 </p>
         </a>
       </div>
-      <p className="timer font-bold ">⏳ Contest starts in: <span className="text-purple-400">{timeLeft}</span></p>
-      <p className="text-1xl">Back to <Link href="/" className="text-purple-400 hover:text-cyan-300 hover:scale-105">Home Page</Link></p>
+      <p className="timer text-center font-bold ">⏳ Contest starts in: <span className="text-purple-400">{timeLeft}</span></p>
+      <p className="text-1xl text-center ">Back to <Link href="/" className="text-purple-400 hover:text-cyan-300 hover:scale-105">Home Page</Link></p>
     </div>
   );
 }
