@@ -101,8 +101,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  left: -8px;
-  bottom: -8px;
+  
   margin: auto;
   width: 50vw;
   height: 50vh;
