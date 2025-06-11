@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <div className="container min-h-screen flex flex-col items-center justify-center ">
-      <div className="card">
+      <div className="card flex flex-col items-center justify-center">
         <p className="heading">Code Golf</p>
         <p className="text-2xl">Powered By</p>
         <p className="heading">IEEE WIE</p>
