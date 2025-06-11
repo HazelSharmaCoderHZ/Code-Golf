@@ -31,7 +31,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="container items-center">
+    <div className="container min-h-screen flex flex-col items-center justify-center ">
       <div className="card">
         <p className="heading">Code Golf</p>
         <p className="text-2xl">Powered By</p>

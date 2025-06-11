@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="bubble bg-cyan-300 border w-47 h-47 top-8 right-2 animate-[float1_8s_ease-in-out_infinite] hover:bg-pink-300"></div>
       <div className="bubble bg-pink-300 w-44 border h-44 top-85 left-10 animate-[float2_10s_ease-in-out_infinite] hover:bg-cyan-300"></div>
    
-      <h1 className="text-7xl font-bold mb-9 tracking-tight text-center">
+      <h1 className="text-7xl font-bold mb-7 tracking-tight text-center">
         Contact <span className="bg-gradient-to-r from-cyan-300 via-purple-300 to-pink-300 text-transparent bg-clip-text">Us</span>.
       </h1>
 
@@ -27,7 +27,7 @@ export default function Contact() {
       </div>
 
       <Link href="/">
-        <button className="mt-6 bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 hover:bg-purple-800 hover:text-black text-white font-semibold px-9 py-3 rounded-full text-xl shadow-lg transition-colors duration-300">
+        <button className="mt-5 bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 hover:bg-purple-800 hover:text-black text-white  px-5 py-2 rounded-full text-lg shadow-sm transition-colors duration-300">
           ← Back to Home
         </button>
       </Link>
