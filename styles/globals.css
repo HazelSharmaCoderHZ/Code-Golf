@@ -92,6 +92,7 @@ body {
   align-items: center;
   gap: 12px;
   border-radius: 8px;
+  padding: 2rem;
   cursor: pointer;
   color: white;
 }
