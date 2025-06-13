@@ -31,7 +31,7 @@ export default function Home() {
 
 
         {/* Main Content */}
-        <div className="   flex flex-col md:flex-row w-full max-w-7xl items-start justify-between px-6 sm:px-12 pt-20 md:pt-26">
+        <div className="   flex flex-col md:flex-row w-full max-w-7xl items-start justify-center px-6 sm:px-12 pt-20 md:pt-26">
 
           {/* Left Section: Heading + Buttons */}
           <motion.div
