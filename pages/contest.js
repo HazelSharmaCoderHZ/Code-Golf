@@ -6,7 +6,7 @@ export default function Home() {
   const [timeLeft, setTimeLeft] = useState('');
 
   useEffect(() => {
-    const targetDate = new Date('2025-06-13T21:00:00+05:30');
+    const targetDate = new Date('2025-06-15T22:00:00+05:30');
 
     const updateTimer = () => {
       const now = new Date();
@@ -43,7 +43,7 @@ export default function Home() {
                 </p>
         </a>
       </div>
-      <p className="timer text-center font-bold ">⏳ Contest starts in: <span className="text-purple-400">{timeLeft}</span></p>
+      <p className="timer text-center font-bold ">⏳ Contest ends in: <span className="text-purple-400">{timeLeft}</span></p>
       <p className="text-1xl text-center ">Back to <Link href="/" className="text-purple-400 hover:text-cyan-300 hover:scale-105">Home Page</Link></p>
     </div>
   );
