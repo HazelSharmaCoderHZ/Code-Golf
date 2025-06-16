@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 export default function Winner() {
-  const winnerNames = ['Coming soon...', 'Coming soon...', 'Coming soon...'];
+  const winnerNames = ['Srilekha Sridha', 'Shresti Subahar', 'Pavni Arora'];
   const [flippedCards, setFlippedCards] = useState([false, false, false]);
 
   const toggleFlip = (index) => {
