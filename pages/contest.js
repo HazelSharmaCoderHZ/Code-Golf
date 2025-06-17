@@ -13,7 +13,7 @@ export default function Home() {
       const diff = targetDate - now;
 
       if (diff <= 0) {
-        setTimeLeft('Contest has started!');
+        setTimeLeft('Contest has ended!');
         return;
       }
 
